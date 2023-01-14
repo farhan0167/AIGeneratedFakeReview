@@ -1,5 +1,11 @@
 # AIGeneratedFakeReview
 
+User reviews play a significant role in determining the revenue of an organization since most online users rely on reviews before making decisions for any product or service. However, fake reviews make it difficult for consumers to get the true picture about a product/service, and also affect businesses adversely. Surveys have shown that the likelihood of a consumer using a business or product relies heavily on positive reviews. Given how crucial reviews are in the consumer decision-making process, huge amounts of time, energy, and resources are devoted to creating fake reviews, both good and bad, highlighting further how important it is to tackle this problem.
+
+In our project, we studied the work [Creating and detecting fake reviews of online products](https://www.sciencedirect.com/science/article/pii/S0969698921003374) and expanded upon their work on the Yelp Dataset. More specifically, we finetuned a GPT-2 model on data from the [Yelp Dataset](https://www.yelp.com/dataset), and further fine-tuned a Roberta language model to detect our generated fake reviews. To compare the authors' work from the time their paper was published, we also generated fake reviews by fine-tuning a seperate GPT-3 model(ADA) leveraging OpenAI's API to compare performance across the two models. Similarly we fine-tuned a seperate Roberta model to detect these GPT-3 generated fakes. To make things interesting, we also tested our work on the recent OpenAI release, the ChatGPT. The question we seek to ask ourselves was whether we could detect computer generated fakes using computers.
+
+Our findings could be found [here](https://drive.google.com/file/d/1ixxOLasU_YBZEwAiysBrrMizcbC5i9LW/view?usp=sharing)
+
 
 This repository is for the final project in our ML for Cyber Security class at NYU. To run these colab files, you may need access to our Drive files that we used throughout the project. Here is the [link](https://drive.google.com/drive/folders/1oiXzqqLV2Dmc2LQkwl1Wcu3pzG7U_FeJ?usp=sharing). 
 
